@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+  </head>
+
+  <body>
+    <h1>My First Programming</h1>
+    <h2>My First Programming</h2>
+    <h3>My First Programming</h3>
+    <h4>My First Programming</h4>
+    <h5>My First Programming</h5>
+    <h6>My First Programming</h6>
+
+    <p>This is Paragraph</p>
+    <b>This is Bold</b>
+    <i>This is Italic</i>
+    <u>This is Underline</u>
+    <strong>This is strong</strong>
+    <em>This is emphasize</em>
+    <p>H <sub>2</sub> O</p>
+    <p>4 <sup>2</sup> = 16</p>
+
+    <hr><hr><br><br>
+
+    <span>hello</span>
+    <span>hello</span>
+
+    <pre>Awaking in new york by maya angloue.  .....
+                This Room by John Ashbery...... </pre>
+
+    <blockquote cite = "APJ Kalam"> <q>You have to dream  before your dreams can come true. 
+      Dreams are not what you see in your sleep. they are something that soes not let you sleep.
+    </q></blockquote>
+    <cite> by APJ Kalam</cite>
+    
+
+    <h2>Student Lists</h2>
+    <ul type = "square">
+      <li>Suraj</li>
+      <li>Bhavya</li>
+      <li>Sahaji</li>
+      <li>Divya</li>
+    </ul>
+
+    <h2>Employee Lists</h2>
+    <ol>
+      <li>Kshitija</li>
+      <li>Hemant</li>
+      <li>Kamini</li>
+    </ol>
+
+    <h2>Name</h2>
+    <dl>
+      <dt>Surekha</dt>
+      <dd>Old fashion name</dd>
+      <dt>Joy</dt>
+      <dd>Modern name</dd>
+    </dl>
+
+    <img src = "../provider/image.png" alt = "image" title = "pics">
+
+    <table border = "1">
+      <thead>
+        <tr>
+          <td>Sr.No.</td>
+          <td>Name</td>
+          <td>Marks</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Suraj</td>
+          <td>96</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Priya</td>
+          <td>93</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+   <center> <h2><b>Registration Form</b></h2></center>
+    <form action = "submit.html" method = "get" target ="_blank">
+
+      <label for = "RollNo"><b>Roll No. : </b></label>
+      <input type = "number"id = "RollNo" placeholder = "Enter Your Roll Number" name = "roll " style="width : 170px">
+      <br> <br>
+
+      <label for = "name"><b>Student Name : </b></label>
+      <input type = "text" id = "name" placeholder = "Firstname" name = "fname">
+      <input type = "text" id = "name" placeholder = "Lastname" name = "lname">
+      <br><br>
+
+      <label for = "age"><b>Age : </b></label>
+      <input type = "number" id = "age" min="1" max = "100" placeholder = "Enter your age " name = "age" style="width: 120px">
+      <br><br>
+
+      <label for = "dob"><b>Date of Birth : </b></label>
+      <input type = "date" id = "dob" name = "dob" placeholder="Enter Your Date of Birth">
+      <br><br>
+
+      <label for = "email"><b>Email : </b></label>
+      <input type = "email" id = "email" name = "email" placeholder="Enter Your Email" required>
+      <br><br>
+
+      <label for = "password"><b>Password : </b></label>
+      <input type="password" id = "password" name ="password" minlength = "8" name = "password" placeholder="Enter Your Password" required>
+      <br><br>
+
+      <label for = "city"><b>Select ur city : </b></label>
+      <select name = "city" id = "city">
+        <option value = "nothing" disabled selected>--Select city--</option>
+        <option value = "pune">Pune</option>
+        <option value = "mumbai">Mumbai</option>
+        <option value = "indore">Indore</option>
+      </select>
+      <br><br>
+
+      
+      <label for = "address"><b>Address : </b></label>
+      <br>
+      <textarea  id = "address" name="address" rows="5" cols="30" placeholder="Enter Your Address"></textarea>
+      <br><br>
+
+      <label for = "gender"><b>Gender : </b></label>
+      <input type = "radio" id = "gender" name = "gender" value= "male"> Male &nbsp;
+      <input type = "radio" id = "gender" name = "gender" value = "female">Female
+      <br><br>
+
+      <label for = "photo"><b>Upload Photo : </b></label>
+      <input type = "file" id = "password" name = "file" placeholder="Enter in jpeg format">
+      <br><br>
+      
+      <label for = "course"><b>Select course : </b></label>
+      <select id = "course" name = "course">
+        <option value = "nothing" disabled selected>--Select Course--</option>
+        <option value = "Btech">BTech</option>
+        <option value = "BCA">BCA</option>
+        <option value = "BCom">BCom</option>
+      </select>
+      <br><br>
+      
+      <label for = "phone"><b>Contact Number : </b></label>
+      <input type = "tel" id = "phone" name = "phone" placeholder="Enter Your Number">
+      <br><br>
+      
+      <input type = "checkbox" id = "tandc"></checkbox>
+      <label  for = "tandc">Terms and Conditions*</label>
+      <br><br>
+
+      <input type = "reset" value = "Reset">
+      &nbsp; &nbsp;
+      <input type = "submit" value = "Registration">
+
+      <!-- <button>Submit</button> -->
+    </form>
+
+    <table border = '1' >
+      <form>
+        <tr>
+          <td><label for = "rollno">Roll No. : </label></td>
+          <td><input type = "number" id = "roll no" name = "rollno"></td>
+        </tr>
+        <tr>
+          <td><label for = "name">Name : </label></td>
+          <td><input type = "text" id = "name" name = "name"></td>
+        </tr>
+        <tr>
+          <td><label for = "age">Age : </label></td>
+          <td><input type = "age" id = "age" name = "age"></td>
+        </tr>
+        <tr>
+          <td><label for = "dob">Date of Birth : </label></td>
+          <td><input type = "dob" id = "dob" name = "dob"></td>
+        </tr>
+        <tr>
+          <td><label for = "email">Email : </label></td>
+          <td><input type = "email" id = "email" name = "email"></td>
+        </tr>
+        <tr>
+          <td><label for = "password">Password : </label></td>
+          <td><input type = "password" id = "password" name = "password"></td>
+        </tr>
+        <tr>
+          <td><label for = "gender">Gender : </label></td>
+          <td><input type = "radio" id = "gender" name = "gender" value="male">Male</td>
+          <td><input type = "radio" id = "gender" name = "gender" value="female">Female</td>
+        </tr>
+        <tr>
+          <td><label for = "photo">Upload Photo : </label></td>
+          <td><input type = "file" id = "photo" name = "file"></td>
+        </tr>
+      </form>
+    </table>
+
+
+  </body>
+</html>
